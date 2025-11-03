@@ -1,0 +1,29 @@
+<doctype html>
+<html>
+<head>
+<title>admission form</title>
+</head>
+<body>
+<form>
+<fieldset>
+<br>
+<h1><center>student name : </center><h1>
+<label for ="name">Full name :</label>
+<input type ="text" id="name"></input></br>
+<br>
+<label for ="phone number">phone number</label>
+<input type ="tel" id="tel" name="tel"></input>
+</br>
+<label for ="course">select your course< /label>
+<select id="course" name ="course".
+<option select "s">Btech</option>
+<option select "m">Bcom</option>
+<option select "n">BA</option>
+</select>
+<br>
+<label for="ask question">ask question about collage </label>
+<textarea type ="text" id="xya" name ="xyz" row ="4" cols="50"><?textarea>
+</fieldset>
+</form>
+</body>
+</html>
