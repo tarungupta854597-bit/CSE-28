@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        .btn {
+            background: darkblue;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: navy;
+        }
+
+        ul {
+            background: #fafafa;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>College Tech Fest 2026</h1>
+<p style="text-align:center;">Welcome to the Annual Tech Fest Registration Page</p>
+
+<h2>Event Details</h2>
+<p><b>Date:</b> 20 March 2026</p>
+<p><b>Venue:</b> Main Auditorium</p>
+
+<ul>
+    <li>Coding Contest</li>
+    <li>Robotics Demo</li>
+    <li>Project Exhibition</li>
+    <li>Quiz Competition</li>
+</ul>
+
+<h2>Participant Registration Form</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text">
+
+<label>Email</label>
+<input type="email">
+
+<label>Phone</label>
+<input type="number">
+
+<label>Department</label>
+<select>
+    <option>CSE</option>
+    <option>ECE</option>
+    <option>ME</option>
+    <option>CE</option>
+</select>
+
+<label>Gender</label><br>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<br><br>
+
+<label>Events Interested</label><br>
+<input type="checkbox"> Coding
+<input type="checkbox"> Robotics
+<input type="checkbox"> Quiz
+<br><br>
+
+<label>Comments</label>
+<textarea rows="4"></textarea>
+
+<input type="submit" value="Register" class="btn">
+
+</form>
+
+<div class="footer">
+Contact: techfest@college.com
+</div>
+
+</div>
+</body>
+</html>
