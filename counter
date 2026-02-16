@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Only Counter</title>
+</head>
+
+<body>
+
+    <h1>Simple Counter (HTML Only)</h1>
+
+    <label>Count:</label>
+    <input type="number" value="0" min="0" max="100">
+
+</body>
+</html>
