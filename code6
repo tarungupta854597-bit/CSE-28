@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: white;
+            margin: 8px auto;
+            padding: 10px;
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <p>This is a simple HTML page with CSS styling.</p>
+
+    <h2>About Me</h2>
+    <p>Hello! I am learning HTML and CSS.</p>
+
+    <h2>My Favorite Things</h2>
+    <ul>
+        <li>Coding</li>
+        <li>Music</li>
+        <li>Games</li>
+    </ul>
+
+    <a href="https://www.google.com">Visit Google</a>
+
+</body>
+</html>
