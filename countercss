@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML CSS Counter Only</title>
+
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    counter-reset: num;
+}
+
+input {
+    display: none;
+}
+
+/* increase counter when checked */
+input:checked {
+    counter-increment: num;
+}
+
+.value::after {
+    content: counter(num);
+    font-size: 30px;
+    display: block;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>CSS Only Counter</h2>
+    <div class="value"></div>
+
+    <input type="checkbox" id="c1">
+    <label for="c1">
+        <button>Increase</button>
+    </label>
+</div>
+
+</body>
+</html>
